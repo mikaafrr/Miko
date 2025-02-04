@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES6",              // Use ES6 syntax
+    "module": "ES6",              // Use ES modules for browsers
+    "outDir": "static/js",        // Output directory for compiled JS
+    "strict": true,               // Enable strict type checking
+    "esModuleInterop": true,      // Interoperability between CommonJS and ES Modules
+    "skipLibCheck": true,         // Skip type checks for libraries
+    "forceConsistentCasingInFileNames": true // Enforce case-sensitive imports
+  },
+  "include": ["animated-bg/*.ts"], // Include all TS files in animated-bg
+  "exclude": ["node_modules"]      // Exclude dependencies
+}
